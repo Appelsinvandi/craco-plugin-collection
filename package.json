@@ -1,9 +1,12 @@
 {
   "name": "crago-plugin-collection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "source": "src/index.ts",
   "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "rimraf dist && tsc"
   },
