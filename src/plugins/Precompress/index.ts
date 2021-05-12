@@ -1,1 +1,0 @@
-export { CracoPrecompressPlugin } from './plugin'

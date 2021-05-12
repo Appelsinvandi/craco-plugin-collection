@@ -1,1 +1,0 @@
-export { CracoRemoveModuleScopePlugin } from './plugin'
