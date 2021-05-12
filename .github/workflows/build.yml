@@ -23,4 +23,4 @@ jobs:
           git checkout -b build/main
           git add -f dist
           git commit -m "Build"
-          git push -f
+          git push || git push -f
