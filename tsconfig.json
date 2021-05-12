@@ -1,0 +1,18 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ES2020", "ESNext"],
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+    "baseUrl": "./"
+  }
+}
