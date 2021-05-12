@@ -21,7 +21,7 @@ jobs:
           git config --local user.name "Builder"
           git config --local user.email "builder@workflow.github.com"
           git checkout -b build/main
-          git rm --cached -r *
+          git rm --cached -r .
           git add -f dist package.json README.md LICENSE
           git commit -m "Build"
           git push -f -u origin build/main
